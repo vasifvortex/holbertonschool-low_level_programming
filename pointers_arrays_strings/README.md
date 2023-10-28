@@ -1,0 +1,1 @@
+echo pointers_arrays_strings
