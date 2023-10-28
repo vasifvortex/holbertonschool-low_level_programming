@@ -1,14 +1,26 @@
 #include "holberton.h"
 
 /**
- * swap_int - swaps the values of two integers
- * @a: pointer to first value
- * @b: pointer to second value
+ * _strncat - Concatenates two strings
+ * @dest: The destination value
+ * @src: The source value
+ * @n: The limit of the concatenation
+ *
+ * Return: A pointer to the resulting string dest
  */
-void swap_int(int *a, int *b)
+char *_strncat(char *dest, char *src, int n)
 {
-int temp;
-temp = *a;
-*a = *b;
-*b = temp;
+int dlen = 0, j = 0;
+while (dest[dlen])
+{
+dlen++;
+}
+while (j < n && src[j])
+{
+dest[dlen] = src[j];
+dlen++;
+j++;
+}
+dest[dlen + n + 1] = '\0';
+return (dest);
 }
