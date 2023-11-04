@@ -1,0 +1,1 @@
+echo C - Static libraries
