@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <string.h>
 /**
- * string_nconcat - concat 
+ * string_nconcat - concat
  *@s1: char
  *@s2: char
  *@n: unsigned int
