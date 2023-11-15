@@ -6,7 +6,7 @@
  *
  * Return: a pointer.
  */
-void *_calloc(unsigned int nmemb, unsigned int size);
+void *_calloc(unsigned int nmemb, unsigned int size)
 {
 void *ptr;
 unsigned int i;
