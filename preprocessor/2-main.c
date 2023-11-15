@@ -1,5 +1,11 @@
 #include <stdio.h>
-int main() {
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{
 printf("%s\n", __FILE__);
-return 0;
+return (0);
 }
