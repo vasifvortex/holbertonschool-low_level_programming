@@ -23,7 +23,6 @@ if (new_dog_ptr->name == NULL || new_dog_ptr->owner == NULL)
 {
 free(new_dog_ptr->name);
 free(new_dog_ptr->owner);
-free(new_dog_ptr->age);
 free(new_dog_ptr);
 return (NULL);
 }
